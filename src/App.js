@@ -17,14 +17,16 @@ import Inline from './component/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './component/Form';
-import LifecycleA from './component/LifecycleA';
+// import LifecycleA from './component/LifecycleA';
+import FragmentDemo from './component/FragmentDemo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div>
-          <LifecycleA />
+          <FragmentDemo />
+          {/* <LifecycleA /> */}
           {/* <Form /> */}
           {/* <Stylesheet primary='true'/>
           <Inline/>
